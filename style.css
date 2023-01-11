@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: (6, 1fr);
+    grid-template-columns: (9, 1fr);
+    background-color: yellow;
+}
+.sidebar{
+    
+    background-color: #2b2d42;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    
+}
+.header{
+    background-color: #ef233c;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 9;
+}
+.main{
+    background-color: #8d99ae;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    display: grid;
+    grid-template-rows: (6, 1fr);
+    grid-template-columns: (7, 1fr);
+    gap: 25px;
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    
+   
+}
+.child1{
+    background-color: #edf2f4;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    
+}
+.child2{
+    background-color: #edf2f4;
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.child3{
+    background-color: #edf2f4;
+    
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.child4{
+    background-color: #edf2f4;
+   
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.child5{
+    background-color: #edf2f4;
+   
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.child6{
+    background-color: #edf2f4;
+    
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.child7{
+    background-color: #edf2f4;
+   
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    
+}
+.child8{
+    background-color: #edf2f4;
+    
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+#card{
+    border-radius: 10px;
+}
+.sb-logo{
+    display: flex;
+    
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.sb-items{
+    margin-left: 10%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-top: 10%;
+    color: white;
+
+    
+}
+.sb-settings{
+margin-left: 10%;
+color: white;
+grid-row-start: 4;
+grid-row-end: 6;
+}
+#odin-pic{
+    width: 45px;
+    height: 50px;
+}
